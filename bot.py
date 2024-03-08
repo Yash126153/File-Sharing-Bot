@@ -75,7 +75,7 @@ class Bot(Client):
 ╚█████╔╝╚█████╔╝██████╔╝███████╗██╔╝╚██╗██████╦╝╚█████╔╝░░░██║░░░███████╗
 ░╚════╝░░╚════╝░╚═════╝░╚══════╝╚═╝░░╚═╝╚═════╝░░╚════╝░░░░╚═╝░░░╚══════╝
                                           """)
-        self.username = usr_bot_me.username
+                self.username = usr_bot_me.username
         #web-response
         app = web.AppRunner(await web_server())
         await app.setup()
